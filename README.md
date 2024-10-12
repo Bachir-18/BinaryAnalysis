@@ -9,8 +9,7 @@ Key Objectives:
 3. Execution of Injected Code: The injected code is expected to be executed, with options to modify the ELF's entry point or hijack the Global Offset Table (GOT) for repeated execution.
 
 
-To execute the program
+To execute the program:
 
 make -C src  
-
 ./executable date injected.bin -a 0x500000 -s new.section [-m]
