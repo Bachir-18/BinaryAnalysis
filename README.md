@@ -1,6 +1,7 @@
 # BinaryAnalysis
 
-The project outlined in the document focuses on advanced binary modification techniques, particularly for ELF (Executable and Linkable Format) binaries. The goal is to teach how to inject new code into an existing binary and modify it in various ways, leveraging key concepts in software security.
+The project outlined in the document focuses on advanced binary modification techniques, particularly for ELF (Executable and Linkable Format) binaries. The goal is to teach how to inject new code into an existing binary and modify it in various ways, leveraging key concepts in software security.  
+
 Key Objectives:
 
 1. Binary Code Injection: The project involves injecting new code into an ELF binary and updating the relevant headers to ensure the new section is loaded and executed.
