@@ -8,5 +8,8 @@ Key Objectives:
 2. Modification of ELF Headers: We must modify both section and program headers, specifically the PT_NOTE segment, to accommodate the new code.
 3. Execution of Injected Code: The injected code is expected to be executed, with options to modify the ELF's entry point or hijack the Global Offset Table (GOT) for repeated execution.
 
+
+To execute the program
+
 make -C src
 ./executable date injected.bin -a 0x500000 -s new.section [-m]
